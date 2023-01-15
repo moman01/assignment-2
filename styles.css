@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@500&family=Work+Sans:wght@500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+} 
+
+/*............. Header Section................. */
+.header-container {
+  background: rgba(255, 144, 14, 0.1);
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 70px;
+}
+.nav-title {
+  color: #131313;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+  list-style-type: none;
+}
+.nav-menu li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #424242;
+}
+.header-content {
+  margin-top: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.header-content-title {
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  color: #131313;
+}
+.header-pera {
+  width: 868px;
+  margin: 20px auto;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #727272;
+}
+.header-btn {
+  display: block;
+  margin: 30px auto;
+  padding: 20px 25px;
+  background-color: #ff900e;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.image-container {
+  width: 1100px;
+  height: 500px;
+  background: url(images/banner.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  left: 170px;
+}
+/* ------------...Team section ..--------------- */
+
+.team {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  padding: 100px;
+}
+.team-image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.image-gallery {
+  width: 342px;
+  height: 342px;
+}
+.team-title {
+  width: 300px;
+  font-weight: 500;
+  font-size: 32px;
+}
+.team-title > b {
+  font-weight: 900;
+  font-size: 25px;
+  color: #131313;
+}
+.team-title > span {
+  color: #ff900e;
+  font-weight: bold;
+}
+.team-pera {
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin-top: 20px;
+}
+.team-btn {
+  padding: 15px 20px;
+  background: #ff900e;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  cursor: pointer;
+}
+/* -- ------ ---------Facts section --------------- */
+.fact-content {
+  width: 900px;
+  padding-left: 100px;
+}
+.fact-title {
+  font-weight: 700;
+  color: #131313;
+}
+.fact-pera {
+  font-weight: 400;
+  font-size: 16px;
+}
+.fact-icon {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  column-gap: 100px;
+}
+.icon {
+  text-align: center;
+  padding-top: 20px;
+  /* height: 150px;
+width: 150px; */
+  padding: 30px;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+}
+/* Sponsor section */
+.sponsor-content {
+  text-align: center;
+  margin-top: 80px;
+}
+.sponsor-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.sponsor-pera {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #727272;
+}
+.logo {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  
+}
+.logo img {
+  filter:grayscale(100%) ;
+}
+/* .................footer section................ */
+footer {
+  padding: 20px 0;
+  background-color: #fff4e7;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  color: #424242;
+  margin: 40px 80px;
+  border-radius: 5px;
+}
