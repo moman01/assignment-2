@@ -1,0 +1,57 @@
+@media only screen and (max-width:576px) {
+  .nav-bar{
+    /* display: flex; */
+    flex-direction: column;
+  }
+
+  .nav-bar ul  {
+    /* display: flex; */
+    flex-direction: column;
+  }
+  .header-title{
+    max-width: 100vh;
+  }
+  .header-pera{
+  max-width: 100vh;
+ text-align: justify;
+ }
+ .image-container{
+  width: 400px;
+  height: 300px;
+  left: 100px;
+ }
+ .team{
+  flex-direction: column;
+ }
+ .team-image {
+  display: flex;
+  flex-direction: column;
+ }
+ .feature-main{
+  flex-direction: column;
+ }
+ .experience-btn{
+  position: relative;
+  margin-top: 10px;
+ }
+ .fact-icon{
+  flex-direction: column;
+ }
+ .icon{
+  width: 50vw;
+  height: 50vh;
+  margin: 10px auto;
+ }
+ .logo{
+  flex-direction: column;
+ }
+ .logo img {
+   height: 30vh;
+   width: 30vw;
+   margin: 5px auto;
+ }
+ .extra-content {
+  max-width: 100vh;
+  max-height: 100vw;
+ }
+}

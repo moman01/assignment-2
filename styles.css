@@ -67,6 +67,7 @@
 .image-container {
   width: 1100px;
   height: 500px;
+  
   background: url(images/banner.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -303,3 +304,4 @@ footer {
   margin: 40px 80px;
   border-radius: 5px;
 }
+
