@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
-} 
+}
 
 /*............. Header Section................. */
 .header-container {
@@ -119,7 +119,84 @@
   color: #ffffff;
   cursor: pointer;
 }
+/* -----------Feature Section --------------*/
+.feature-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 0px 80px;
+  margin-bottom: 30px;
+}
+.feature-content {
+}
+/* .feature-image{
+  position: relative; */
+
+}
+.sub-cnotent {
+  margin-bottom: 60px;
+}
+.feature-title {
+  font-weight: 700;
+  font-size: 35px;
+  border-left: 4px solid #ff900e;
+  padding-left: 20px;
+  color: #131313;
+}
+.feature-pera {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.title-box {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 14px;
+  border-radius: 10px;
+}
+.box-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+}
+.box-pera {
+  margin-top: 1rem;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  text-align: justify;
+}
+
+.experience-btn {
+  position: absolute;
+  z-index: 1;
+  left: 35%;
+  top: 436%;
+  background: #ff900e;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  padding: 40px 40px;
+}
+.experience-btn h4 {
+  font-weight: 700;
+font-size: 45px;
+text-align: center;
+color: #ffffff;
+}
+.experience-btn p{
+font-weight: 500;
+font-size: 16px;
+text-align: center;
+color: #FFFFFF;
+}
+
+
 /* -- ------ ---------Facts section --------------- */
+.fact {
+  margin-top: 120px;
+}
 .fact-content {
   width: 900px;
   padding-left: 100px;
@@ -141,13 +218,16 @@
 .icon {
   text-align: center;
   padding-top: 20px;
-  /* height: 150px;
-width: 150px; */
   padding: 30px;
   border: 1px solid #ff900e;
   border-radius: 8px;
 }
-/* Sponsor section */
+
+
+/*-------------- Sponsor section------------ */
+.sponsor{
+  margin-bottom: 80px;
+}
 .sponsor-content {
   text-align: center;
   margin-top: 80px;
@@ -169,11 +249,49 @@ width: 150px; */
   display: flex;
   justify-content: center;
   gap: 50px;
-  
 }
 .logo img {
-  filter:grayscale(100%) ;
+  filter: grayscale(100%);
 }
+/* --------------Extra style---------- */
+.extra-content{
+  width: 700px;
+  height: 400px;
+  background: rgba(255, 144, 14, 0.1);
+  margin: 0 auto;
+  text-align:justify;
+}
+.extra-content h1 {
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 16px;
+    color: #db0b38;
+}
+
+.extra-content input {
+  margin-top: 30px;
+  padding: 21px 130px 21px 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(214, 211, 15);
+}
+
+
+
+
+.quote-btn{
+background: #db0b38;
+color: #ffff;
+ margin-top: 16px;
+ display: block;
+ padding: 20px 30px;
+ font-weight: 600;
+ font-size: 20px;
+ color:#FFFFFF;
+ border:none;
+ border-radius: 5px;
+cursor: pointer;
+}
+
 /* .................footer section................ */
 footer {
   padding: 20px 0;
